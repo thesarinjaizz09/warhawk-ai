@@ -1,0 +1,10 @@
+1) Person and animal identification trapped in a flood
+2) Person and animal identification trapped in an earthquake
+3} Person and animal identification trapped in an avalanche
+4) Dropping of payload containing resources to the persons trapped in flood, earthquake and avalanche
+5) Identification of persons pinned under any obstacle during a natural disaster like flood, earthquake and avalanche
+6) Maintiaing a database that contains the data of all the victims tracked, rescued, resources dropped and thier locations for future analysis
+7) Terrain detection of a location and suggestions of what vehicles and artillery to be used in that location
+8) Enemy bunker detection and dropping of explosive on those hostile targets automatically
+9) Maintiaing a database that contains the data of all the bunkers tracked, demolished and thier locations for future analysis
+10) Detection of any un-nautral magnetic field thus detecting underground mines or explosive

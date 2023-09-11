@@ -1,0 +1,8 @@
+Victims
+Rescuers
+Boats
+Vehicles
+Vegetation
+Landscape
+Terrains
+Human body parts

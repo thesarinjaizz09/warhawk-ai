@@ -1,0 +1,235 @@
+body {
+    font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+    background-color: #51087E;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.app__content__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app__video__log__wrapper {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+
+.app__video__wrapper {
+    width: 82%;
+    background-color: #03123F;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__log__wrapper {
+    width: 17.8%;
+    background-color: #020D30;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.app__drone__data__wrapper {
+    width: 99.7%;
+    margin-top: 3px;
+    box-sizing: border-box;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 28.5%;
+    background-color: #020D30;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.app__video__overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    text-align: center;
+    background-color: #020D30;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video__drone__icon {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.video__drone__span {
+    font-size: 18px;
+    color: gray;
+    color: #a79435;
+}
+
+.app__log__header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    background-color: #03123F;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 35px;
+    color: gray;
+    color: #a79435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+}
+
+.app__data__header {
+    height: 100%;
+    background-color: #03123F;
+    width: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a79435;
+    border-right: 1px solid gray;
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 18px;
+    transform: rotate(270deg);
+}
+
+.app__log {
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    flex-direction: column;
+    height: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.log {
+    margin: 0 7px;
+    margin-top: 12px;
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 40px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+.log__icon {
+    margin-right: 5px;
+    width: 30px;
+}
+
+#fstLog {
+    margin-top: 0;
+}
+
+.bgg {
+    /* border: 2px solid violet; */
+    background-color: violet;
+}
+
+.bgr {
+    /* border: 2px solid red; */
+    background-color: red;
+}
+
+.bgb {
+    /* border: 2px solid blue; */
+    background-color: blue;
+}
+
+.bgo {
+    /* border: 2px solid #149414; */
+    background-color: #149414;
+}
+
+.log span {
+    color: white;
+    font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+}
+
+.data__column {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.data__wrapper {
+    background-color: lightcoral;
+    /* color: whitesmoke; */
+    margin: 6px 0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    /* border: 2px solid lightcoral; */
+}
+
+.app__data__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gr2 {
+    background-color: bisque;
+    /* border:2px solid bisque; */
+}
+
+.gr1 {
+    background-color: lightseagreen;
+    /* border:2px solid lightseagreen; */
+}
+
+.label {
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,3166 @@
+/* Responsive CSS  */
+@media (min-width: 576px) {
+  /* .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:has(+.swiper-pagination-bullet.swiper-pagination-bullet-active){
+        background-color: #C2060B;
+        color: #fff;
+    } */
+  /* .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(2):has(+.swiper-pagination-bullet:nth-child(3).swiper-pagination-bullet-active):before,
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(2):has(+.swiper-pagination-bullet:nth-child(3).swiper-pagination-bullet-active),
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(3):has(+.swiper-pagination-bullet:nth-child(4).swiper-pagination-bullet-active):before,
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(3):has(+.swiper-pagination-bullet:nth-child(4).swiper-pagination-bullet-active),
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(4):has(+.swiper-pagination-bullet:nth-child(5).swiper-pagination-bullet-active):before,
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(4):has(+.swiper-pagination-bullet:nth-child(5).swiper-pagination-bullet-active),
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(5):has(+.swiper-pagination-bullet:nth-child(6).swiper-pagination-bullet-active):before,
+    .rageEffect .sliderOuter .swiper .swiper-pagination .swiper-pagination-bullet:nth-child(5):has(+.swiper-pagination-bullet:nth-child(6).swiper-pagination-bullet-active) {
+        background-color: #C2060B;
+        color: #ffffff;
+    } */
+  /* .swiper-pagination-bullet.swiper-pagination-bullet-active,
+    .swiper-pagination-bullet.active:before,
+    .swiper-pagination-bullet.active{
+        background-color: #C2060B !important;
+        color: #ffffff !important;
+    } */
+  .swiper-pagination-bullet:before,
+  .swiper-pagination-bullet {
+    background-color: #62064d !important;
+    color: #ffffff !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(2)
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(3)
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(4)
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(5),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(5):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(5)
+    + .swiper-pagination-bullet:nth-child(6):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(6),
+  .swiper-pagination-bullet.swiper-pagination-bullet-active
+    + .swiper-pagination-bullet:nth-child(6):before {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  /* .swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2,
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3,
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4,
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5,
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6,
+.swiper-pagination-bullet-active.custom-bullet-1 + .custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3,
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4,
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5,
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6,
+.swiper-pagination-bullet-active.custom-bullet-2 + .custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4,
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5,
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6,
+.swiper-pagination-bullet-active.custom-bullet-3 + .custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active.custom-bullet-4 + .custom-bullet-5,
+.swiper-pagination-bullet-active.custom-bullet-4 + .custom-bullet-5:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6,
+.swiper-pagination-bullet-active.custom-bullet-4 + .custom-bullet-5 + .custom-bullet-6:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+}
+.swiper-pagination-bullet-active.custom-bullet-5 + .custom-bullet-6,
+.swiper-pagination-bullet-active.custom-bullet-5 + .custom-bullet-6:before
+{
+     background-color: #fff !important;
+    color: #000 !important;
+} */
+}
+@media (min-width: 1601px) {
+  .container {
+    max-width: 1560px;
+  }
+}
+@media (min-width: 1921px) {
+  .container {
+    max-width: 1730px;
+  }
+  /* Header CSS Start  */
+  .mainHeader .navbar {
+    padding: 24px 0;
+  }
+  .mainHeader .navbar .navbar-brand {
+    width: 110px;
+  }
+  .mainHeader .navbar .navbar-brand .logoBg {
+    top: -36px;
+    left: -120%;
+  }
+  .mainHeader .navbar .navbar-nav {
+    gap: 65px;
+  }
+  .mainHeader .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+
+  .mainHeroSection {
+    padding-top: 115px;
+    max-height: 960px;
+    min-height: auto;
+  }
+  .heroImgSect {
+    right: -150px;
+  }
+  .heroImgSect .imgOuter {
+    width: 85%;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    height: 250px;
+  }
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 80px 0;
+  }
+  .mainTitle {
+    font-size: 62px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 24px;
+    margin-top: 34x;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 22px;
+    max-width: 750px;
+    margin-bottom: 50px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 40px;
+    bottom: 0;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 40px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle .icon {
+    width: 27px;
+    height: 29px;
+    top: -8px;
+    right: -18px;
+    z-index: 0;
+  }
+  /* Main Hero CSS End  */
+
+  .videoPLayBtn {
+    width: 200px;
+    height: 200px;
+  }
+  .videoPLayBtn img {
+    width: 50px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    font-size: 24px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 50px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 30px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 22px 12px;
+  }
+  .inRageEffect {
+    padding: 100px 0 100px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 24px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 140px;
+    height: 140px;
+    right: 90px;
+    top: 215px;
+  }
+
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+    width: 820px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .soliderImg {
+    width: 80% !important;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 170px;
+    height: 170px;
+    margin-bottom: -85px;
+    margin-left: 90px;
+    font-size: 50px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem {
+    font-size: 25px;
+    width: calc(100% / 4 - 23px) !important;
+    height: 96px;
+    line-height: 36px;
+    padding: 18px;
+    gap: 22px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    margin-top: 176px;
+    gap: 30px;
+  }
+  .developingRage .col-10 {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .developItem .progressPoint::after {
+    top: 182px;
+    left: -25px;
+    width: 470px;
+    transform: rotate(41deg);
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -18px;
+    top: 192px;
+    left: auto;
+    transform: rotate(-41deg);
+  }
+  .developingRageScroller {
+    max-height: 700px;
+    margin-top: 60px;
+  }
+  .onlyRealGamers {
+    padding: 130px 0;
+  }
+  .partnersMain .brandSlider img {
+    padding: 0 60px;
+    width: 260px;
+  }
+  .partnersMain .brandSliderInner {
+    height: 260px;
+  }
+  .partnersMain .brandSlider {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 2292px) {
+  .container {
+    max-width: 2292px;
+  }
+  .videoPLayBtn {
+    width: 240px;
+    height: 240px;
+  }
+  .heroImgSect .imgOuter {
+    width: 91%;
+  }
+  /* Header CSS Start  */
+  .mainHeader .navbar {
+    padding: 36px 0;
+  }
+  .mainHeader .navbar .navbar-brand {
+    width: 125px;
+  }
+  .mainHeader .navbar .navbar-brand .logoBg {
+    top: -36px;
+    left: -95%;
+    width: 420px;
+  }
+  .mainHeader .navbar .navbar-nav {
+    gap: 85px;
+  }
+  .mainHeader .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+  .mainHeroSection {
+    padding-top: 148px;
+    min-height: 1365px;
+  }
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 100px 0;
+  }
+  .mainTitle {
+    font-size: 82px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 34px;
+    margin-top: 50px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 26px;
+    margin-bottom: 80px;
+    max-width: 750px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    height: 268px;
+    padding-top: 50px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 45px;
+    line-height: 64px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle .icon {
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: -20px;
+  }
+  /* Main Hero CSS End  */
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 64px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 140px;
+    height: 140px;
+    right: -72px;
+    top: -14px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+    width: 1030px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .soliderImg {
+    width: 80% !important;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 220px;
+    height: 220px;
+    margin-bottom: -110px;
+    margin-left: 110px;
+    font-family: winner-sans-regular;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    transform: skewX(-10deg);
+    backdrop-filter: blur(16px);
+    background: linear-gradient(
+        90deg,
+        rgba(13, 209, 209, 0.206) 38.56%,
+        rgba(30, 186, 16, 0.01) 106.59%
+      ),
+      url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23FFFFFFD1' stroke-width='3' stroke-dasharray='15%2c 10' stroke-dashoffset='17' stroke-linecap='square'/%3e%3c/svg%3e");
+  }
+  .developItem .progressPoint::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 188px;
+    left: -33px;
+    width: 470px;
+    transform: rotate(44deg);
+    height: 3px;
+    background-image: linear-gradient(to right, transparent 50%, #c2060b 50%);
+    background-size: 46px 100%;
+    z-index: 0;
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -25px;
+    top: 199px;
+    left: auto;
+    transform: rotate(-43deg);
+  }
+
+  .developingRage .col-10 {
+    width: 83.33333333%;
+    flex: 0 0 auto;
+  }
+  .developingRageScroller {
+    max-height: 850px;
+    margin-top: 80px;
+  }
+
+  .partnersMain .brandSlider img {
+    padding: 0 60px;
+    width: 300px;
+  }
+
+  .partnersMain .brandSliderInner {
+    height: 350px;
+  }
+  .partnersMain .brandSlider {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1920.98px) {
+  /* Button CSS Start  */
+  .customBtn {
+    gap: 12px;
+    font-size: 20px;
+    padding: 4px 16px;
+  }
+  /* Button CSS End  */
+
+  /* Header CSS Start  */
+  .mainHeader .navbar .navbar-brand {
+    width: 75px;
+  }
+  .mainHeader .navbar .navbar-brand .stickyHeaderLogo {
+    width: 28px;
+  }
+  .mainHeader .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+  }
+  .mainHeader .navbar .navbar-brand .logoBg {
+    top: -42px;
+    left: -190%;
+    width: 400px;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+  .mainTitle {
+    font-size: 52px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 22px;
+    margin-top: 24px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 20px;
+    /* max-width: unset; */
+    margin-bottom: 40px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 60px;
+    bottom: -1px;
+    height: 220px;
+  }
+  .mainHeroSection .heroSocial {
+    padding: 24px 16px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 32px;
+  }
+  .mainHeroSection .heroSocial .socialList a {
+    width: 36px;
+    height: 36px;
+  }
+  .heroImgSect {
+    right: -130px;
+    bottom: -30px;
+  }
+  .heroImgSect .imgOuter {
+    width: 86%;
+  }
+  /* Main Hero CSS End  */
+
+  .videoPLayBtn {
+    width: 170px;
+    height: 170px;
+  }
+  .videoPLayBtn img {
+    width: 36px;
+  }
+
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    font-size: 18px;
+    width: 28px;
+    height: 28px;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-pagination {
+    gap: 200px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet::before {
+    width: 200px;
+    left: -200px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 44px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 26px;
+    padding-bottom: 22px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 22px 12px;
+  }
+  .inRageEffect {
+    padding: 100px 0 100px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 22px;
+  }
+  .miniTitle {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    margin: 40px auto 0;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter .scoreTableInner {
+    padding: 50px 50px;
+  }
+  .sectionHeading .title {
+    font-size: 70px;
+  }
+  .sectionHeading .title::after {
+    right: 11px;
+  }
+  .sectionHeading .title::before {
+    left: 11px;
+  }
+  .mainVideoSect .sectionHeading {
+    top: -55px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 140px;
+    height: 140px;
+    right: -76px;
+    top: -15px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+    width: 80%;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 160px;
+    height: 160px;
+    margin-bottom: -80px;
+    margin-left: 110px;
+    font-size: 40px;
+  }
+  /* .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .soliderImg {
+        right: -50px !important;
+    } */
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 50px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 80px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .sideDesign
+    img {
+    width: 100%;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 100px;
+    background-size: 1560px;
+  }
+  .aboutUs {
+    padding: 80px 0;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem {
+    font-size: 22px;
+    width: calc(100% / 4 - 18px) !important;
+    height: 78px;
+    line-height: 30px;
+    padding: 16px;
+    gap: 20px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    margin-top: 100px;
+    gap: 24px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .developingRage .col-10 {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .developItem .progressPoint::after {
+    background-size: 44px 100%;
+    top: 140px;
+    left: -29px;
+    width: 400px;
+    transform: rotate(39deg);
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -16px;
+    top: 150px;
+    left: auto;
+    width: 400px;
+    transform: rotate(-39deg);
+    background-size: 44px 100%;
+  }
+  .developingRageScroller {
+    max-height: 520px;
+    padding-right: 45px;
+    margin-top: 50px;
+    overflow: hidden auto;
+  }
+  .developingRage {
+    padding: 80px 0;
+  }
+  .developItem .title {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  .developItem .listing .list {
+    font-size: 22px;
+  }
+  .developItem .progressPoint {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 58%;
+  }
+  .developItem .progressPoint::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #c2060b;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+  }
+  .developItem .progressPoint::before {
+    width: 20px;
+    height: 20px;
+  }
+  .onlyRealGamers {
+    padding: 140px 0;
+  }
+  .onlyRealGamers::before,
+  .onlyRealGamers::after {
+    width: 342px;
+  }
+  .customBtn .otherTxt {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 38px;
+  }
+  .footerMain {
+    padding: 40px 0;
+  }
+  .footerMain .footerDec .footerLogo {
+    width: 120px;
+  }
+  .footerMain .footerDec .pera {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 24px 0;
+  }
+  .footerMain .footerDec .copyRight {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  .footerMain .footerMenuTitle {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  .footerMain .footerMenuList .footerMenuLink {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .bacToTop .backToTopBtn {
+    width: 68px;
+    height: 68px;
+  }
+  .footerMain .bacToTop {
+    gap: 70px;
+  }
+  .footerMain .socialIcon {
+    gap: 24px;
+    margin-top: 40px !important;
+  }
+  .investorsMain {
+    padding: 80px 0;
+  }
+  .title2 {
+    font-family: winner-sans-regular;
+    font-size: 60px;
+    line-height: 1.5;
+    padding: 0 100px;
+    /* background-color: #0C0C0C; */
+  }
+  .investorsMain .sectBody {
+    padding-top: 80px;
+  }
+  .investorsMain .sectBody .brandItem {
+    width: 300px;
+    height: 50px;
+  }
+
+  .partnersMain {
+    padding: 0 0 80px 0;
+  }
+  .testimonialMainOuter {
+    padding-top: 100px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .title {
+    font-size: 48px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .subTitle {
+    font-size: 26px;
+    line-height: 1.5;
+    margin: 16px 0 8px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .pera {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter {
+    padding: 30px 0 0;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .otherDetail {
+    margin-top: 40px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .otherDetail .title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeTitle {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeTitle {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .rating {
+    width: 140px;
+    height: 140px;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-top: 12px;
+  }
+  .faqSection {
+    padding: 100px 0;
+  }
+  .faqSection .accordionOuter .accordionMain.accordion {
+    margin-top: 60px;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 32px;
+    line-height: 1.4;
+    padding: 30px 40px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body {
+    padding: 30px 30px;
+  }
+  .faqSection .accordionOuter .accordion-collapse {
+    padding: 0 40px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body .decription {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .faqSection::before,
+  .faqSection::after {
+    width: 34px;
+    height: 342px;
+  }
+  .partnersMain .brandSlider img {
+    padding: 0 50px;
+  }
+  .partnersMain .brandSlider img {
+    padding: 0 30px;
+    max-width: 220px;
+  }
+  .customBtn .btnArrow {
+    width: 14px;
+  }
+  /* .partnersMain .brandSlider img img {
+        width: 100%;
+    } */
+
+  .mainHeroSection {
+    min-height: 900px;
+  }
+}
+@media (max-width: 1600.98px) {
+  .customBtn {
+    gap: 20px;
+    font-size: 22px;
+    padding: 14px 40px;
+  }
+  /* Main Hero CSS Start  */
+  .mainTitle {
+    font-size: 44px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 40px;
+    height: 180px;
+  }
+  .mainHeroSection .heroSocial {
+    padding: 20px 16px;
+  }
+  .mainHeroSection .heroSocial .socialList a {
+    width: 28px;
+    height: 28px;
+  }
+  .mainHeroSection .heroSocial .socialList {
+    gap: 24px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 28px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle .icon {
+    width: 26px;
+    height: 26px;
+    top: -12px;
+    right: -19px;
+  }
+  /* Main Hero CSS End  */
+
+  .videoPLayBtn {
+    width: 140px;
+    height: 140px;
+  }
+  .videoPLayBtn img {
+    width: 30px;
+  }
+  .inRageEffect {
+    padding: 60px 0 60px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter .scoreTableInner {
+    padding: 30px 30px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 22px;
+    padding-bottom: 18px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 20px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 18px 10px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    margin: 30px auto 0;
+    max-height: 550px;
+  }
+  .sectionHeading .title::before {
+    left: 9px;
+  }
+  .sectionHeading .title::after {
+    right: 9px;
+  }
+  .sectionHeading .title {
+    font-size: 50px;
+  }
+  .mainVideoSect .sectionHeading {
+    top: -40px;
+  }
+  .sectionHeading {
+    padding: 30px 0;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-wrapper {
+    padding: 50px 0;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet::before {
+    width: 160px;
+    left: -160px;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-pagination {
+    gap: 160px;
+  }
+  .rageEffect {
+    padding: 50px 0 50px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 34px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 120px;
+    height: 120px;
+    right: -66px;
+    top: -11px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 120px;
+    height: 120px;
+    margin-bottom: -60px;
+    margin-left: 110px;
+    font-size: 30px;
+  }
+
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 80px;
+    background-size: 1320px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 40px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .contentPart {
+    max-width: 560px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 70px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    margin-top: 100px;
+  }
+  .guildsFeatures {
+    padding: 80px 0;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    margin-top: 60px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem {
+    font-size: 18px;
+    width: calc(100% / 4 - 18px) !important;
+    height: 62px;
+    line-height: 22px;
+    padding: 8px;
+    gap: 20px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem .icon {
+    width: 36px;
+    height: 36px;
+  }
+  .developingRage {
+    padding: 60px 0;
+  }
+  .developItem .title {
+    font-size: 40px;
+  }
+  .developItem .progressPoint {
+    width: 40px;
+    height: 40px;
+    top: 11px;
+    right: 52%;
+  }
+  .developItem:nth-child(even) .progressPoint {
+    left: -16%;
+  }
+  .developItem .progressPoint::after {
+    background-size: 44px 100%;
+    top: 134px;
+    left: -34px;
+    width: 350px;
+    transform: rotate(44deg);
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -19px;
+    top: 148px;
+    left: auto;
+    width: 350px;
+    transform: rotate(-43deg);
+    background-size: 44px 100%;
+  }
+  .onlyRealGamers::before,
+  .onlyRealGamers::after {
+    width: 282px;
+    height: 52px;
+  }
+  .onlyRealGamers::before {
+    top: -30px;
+  }
+  .onlyRealGamers::after {
+    bottom: -20px;
+  }
+  .onlyRealGamers {
+    padding: 90px 0;
+  }
+  .footerMain .socialIcon li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+  }
+  .footerMain .socialIcon li a img {
+    width: 100%;
+  }
+  .footerMain {
+    /* padding: 60px 0 60px; */
+  }
+  .footerMain .bacToTop {
+    gap: 30px;
+  }
+  .bacToTop .backToTopBtn {
+    width: 48px;
+    height: 48px;
+    padding: 16px;
+  }
+  .bacToTop .backToTopBtn img {
+    width: 100%;
+  }
+  .footerMain .footerMenuList {
+    gap: 20px;
+  }
+  .footerMain .footerDec .footerLogo {
+    width: 90px;
+  }
+  .footerMain .footerDec .pera {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .footerMain .footerDec .copyRight {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .footerMain .footerMenuTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .footerMain .footerMenuList .footerMenuLink {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .footerMain .footerMenuList {
+    gap: 12px;
+  }
+  .footerMain .bacToTop .txt {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .footerMain .socialIcon {
+    gap: 18px;
+    margin-top: 28px !important;
+  }
+  .footerMain .socialIcon ul {
+    gap: 24px !important;
+  }
+  .investorsMain {
+    padding: 60px 0;
+  }
+  .investorsMain .sectBody .brandItem {
+    width: 260px;
+    height: 45px;
+  }
+  .investorsMain .sectBody {
+    padding-top: 60px;
+  }
+  .title2 {
+    font-size: 48px;
+    padding: 0 80px;
+  }
+  .sectionTitle .leftDesign,
+  .sectionTitle .rightDesign {
+    width: 176px;
+    height: 3px;
+    display: block;
+    background-color: #ffffff;
+  }
+  .sectionTitle::before,
+  .sectionTitle::after {
+    width: calc(50% - 230px);
+  }
+  .bgImgSection {
+    background-size: 1530px;
+    background-position: center -520px;
+  }
+  .partnersMain .brandSlider {
+    margin-top: 90px;
+  }
+  .partnersMain {
+    padding: 0 0 60px 0;
+  }
+  .testimonialMainOuter {
+    padding-top: 80px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .title {
+    font-size: 38px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .subTitle {
+    font-size: 22px;
+    margin: 8px 0 8px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .pera {
+    font-size: 18px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .otherDetail .title {
+    font-size: 24px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeTitle,
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeResult {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    ul
+    li {
+    gap: 24px !important;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner {
+    padding-top: 18px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .rating {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    margin-top: 4px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .title {
+    font-size: 24px;
+  }
+  .testimonialSliderOuter .owl-nav .owl-prev,
+  .testimonialSliderOuter .owl-nav .owl-next {
+    width: 16px;
+    height: 24px;
+  }
+
+  .testimonialSliderOuter .owl-nav .owl-prev img,
+  .testimonialSliderOuter .owl-nav .owl-next img {
+    width: 100%;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter {
+    padding: 0px 0 0;
+  }
+  .faqSection {
+    padding: 80px 0;
+  }
+  .faqSection .accordionOuter .accordionMain.accordion {
+    margin-top: 40px;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 26px;
+    padding: 24px 30px;
+    letter-spacing: 1px;
+  }
+  .faqSection .accordionOuter .accordion-button::after {
+    width: 22px;
+    height: 22px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body .decription {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .faqSection .accordionOuter .accordion-collapse {
+    padding: 0 30px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body {
+    padding: 24px 24px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .leftPart
+    .imgOuter.gif {
+    height: 400px;
+  }
+  .mainHeroSection {
+    min-height: 736px;
+  }
+  .heroImgSect {
+    right: -130px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .customBtn {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+  /* Header CSS Start  */
+  .mainHeader .navbar .navbar-brand .stickyHeaderLogo {
+    width: 22px;
+  }
+  .mainHeader .navbar .navbar-brand {
+    width: 60px;
+  }
+  .mainHeader .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+  .mainTitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 40px 0;
+  }
+  .mainHeroSection {
+    padding-top: 69px;
+    min-height: 620px;
+  }
+  .customBtn .btnArrow {
+    width: 10px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 50px;
+    height: 170px;
+  }
+  .mainHeroSection .heroSocial {
+    padding: 18px 12px;
+  }
+  .mainHeroSection .heroImgSect .imgOuter {
+    width: 88% !important;
+    margin-left: auto;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 24px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle .icon {
+    width: 22px;
+    height: 22px;
+    top: -9px;
+    right: -16px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle img {
+    width: 28px;
+  }
+  /* Main Hero CSS End  */
+
+  .videoPLayBtn {
+    width: 100px;
+    height: 100px;
+  }
+  .videoPLayBtn img {
+    width: 24px;
+  }
+
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 36px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter .scoreTableInner {
+    padding: 10px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 18px;
+    padding-bottom: 16px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 16px 10px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 16px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    margin: 20px auto 0;
+    max-height: 500px;
+  }
+  .miniTitle {
+    font-size: 16px;
+  }
+  .sectionHeading .title {
+    font-size: 40px;
+  }
+  .mainVideoSect .sectionHeading {
+    top: -30px;
+  }
+  .mainVideoSect .sectionHeading .leftSide {
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  }
+  .sectionHeading .title::before {
+    left: 5px;
+  }
+  .sectionHeading .title::after {
+    right: 5px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 100px;
+    height: 100px;
+    right: -53px;
+    top: -6px;
+  }
+  .aboutUs {
+    padding-top: 80px !important;
+    padding: 60px 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 60px;
+    background-size: 1140px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -50px;
+    margin-left: 60px;
+    font-size: 24px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 32px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 60px;
+  }
+  .guildsFeatures .rightImg {
+    top: -80px;
+    width: 400px;
+    height: 400px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem {
+    font-size: 17px;
+    width: calc(100% / 4 - 18px) !important;
+    height: 54px;
+    line-height: 22px;
+    padding: 8px;
+    gap: 20px;
+  }
+  .guildsFeatures {
+    padding: 60px 0;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    gap: 16px;
+  }
+  .developItem .progressPoint {
+    width: 32px;
+    height: 32px;
+    top: 11px;
+    right: 32%;
+    border-width: 2px !important;
+  }
+  .developItem .progressPoint::before {
+    width: 14px;
+    height: 14px;
+  }
+  .developItem .title {
+    font-size: 30px;
+  }
+  .developItem .listing .list {
+    font-size: 18px;
+  }
+  .developItem .progressPoint::after {
+    background-size: 32px 100%;
+    top: 108px;
+    left: -42px;
+    width: 222px;
+    transform: rotate(60deg);
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -34px;
+    top: 120px;
+    left: auto;
+    width: 222px;
+    transform: rotate(-60deg);
+    background-size: 32px 100%;
+  }
+  .developingRageScroller {
+    max-height: 360px;
+    padding-right: 30px;
+    margin-top: 40px;
+  }
+  .developingRage {
+    padding: 40px 0;
+  }
+  .developingRage::after {
+    height: 200px;
+  }
+  .footerMain .footerDec .footerLogo {
+    width: 70px;
+  }
+  .footerMain .footerDec .pera {
+    font-size: 16px;
+    margin: 16px 0;
+  }
+  .footerMain .footerDec .copyRight {
+    font-size: 16px;
+  }
+  .footerMain .footerMenuTitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 24px !important;
+  }
+  .footerMain .footerMenuList .footerMenuLink {
+    font-size: 16px;
+  }
+  .footerMain .bacToTop {
+    /* margin-top: 24px !important; */
+  }
+  .bacToTop .backToTopBtn {
+    width: 38px;
+    height: 38px;
+    padding: 12px;
+  }
+  .footerMain .socialIcon {
+    gap: 18px;
+    margin-top: 8px !important;
+  }
+  .title2 {
+    font-size: 40px;
+    padding: 0 60px;
+  }
+  .investorsMain .sectBody {
+    padding-top: 40px;
+  }
+  .investorsMain .sectBody .brandItem {
+    width: 220px;
+    height: 38px;
+  }
+  .partnersMain .brandSlider img {
+    padding: 0 24px;
+    max-width: 180px;
+  }
+  .title2 {
+    font-size: 32px;
+    padding: 0 60px;
+  }
+  .bgImgSection {
+    background-size: 1140px;
+    background-position: center -400px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .title {
+    font-size: 30px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .subTitle {
+    font-size: 18px;
+    margin: 0;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .pera {
+    font-size: 16px;
+  }
+  .testimonialMainOuter {
+    padding-top: 60px;
+  }
+  .faqSection {
+    padding: 60px 0;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 22px;
+    padding: 20px 24px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body .decription {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .modal .contentPart .title {
+    font-size: 50px;
+    line-height: 1.4;
+  }
+  .modal .contentPart .subTitle {
+    font-size: 18px;
+  }
+
+  .modal .contentPart .pera {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .customBtn {
+    font-size: 15px;
+  }
+  /* Header CSS Start  */
+  .mainHeader .navbar .navbar-brand {
+    width: 50px;
+  }
+  .mainHeader .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+  }
+  .mainHeader .navbar .navbar-brand .logoBg {
+    left: -260%;
+    width: 320px;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+  .mainHeroSection {
+    padding-top: 80px;
+    min-height: 510px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 40px;
+    height: 170px;
+  }
+  .mainHeroSection .heroImgSect .imgOuter {
+    width: 82% !important;
+  }
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 70px 0;
+  }
+  /* .mainTitle {
+        font-size: 24px;
+    } */
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    margin-top: 20px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  .mainHeroSection .heroSocial .socialList a {
+    width: 24px;
+    height: 24px;
+  }
+  .mainHeroSection .heroSocial .socialList {
+    gap: 16px;
+  }
+  .mainHeroSection .heroSocial {
+    padding: 16px 10px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle {
+    font-size: 20px;
+  }
+  .mainHeroSection .sectionInner .bottomPartTitle .icon {
+    width: 20px;
+    height: 20px;
+    top: -9px;
+    right: -14px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle {
+    font-size: 16px;
+  }
+  .mainHeroSection .sectionInner .bottomPartSubTitle img {
+    width: 24px;
+  }
+  /* Main Hero CSS End  */
+  .inRageEffect {
+    padding: 40px 0;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    max-height: 400px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 16px;
+    padding-bottom: 14px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 15px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 14px 8px;
+  }
+  .miniTitle {
+    font-size: 14px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet::before {
+    height: 2px;
+  }
+  .rageEffect {
+    padding: 30px 0 30px;
+  }
+  .sectionHeading {
+    padding: 20px 0;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-wrapper {
+    padding: 20px 0;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 85px;
+    height: 85px;
+    right: -45px;
+    top: 0px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 28px;
+  }
+  .aboutUs {
+    padding: 50px 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 50px;
+    background-size: 960px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 24px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .contentPart {
+    max-width: 440px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -40px;
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 50px;
+  }
+  .guildsFeatures .rightImg {
+    top: -70px;
+    width: 360px;
+    height: 360px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter {
+    margin-top: 40px;
+  }
+  .guildsFeatures {
+    padding: 40px 0;
+  }
+  .developItem .progressPoint::after {
+    background-size: 32px 100%;
+    top: 101px;
+    left: -37px;
+    width: 207px;
+    transform: rotate(60deg);
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -31px;
+    top: 107px;
+    left: auto;
+    width: 198px;
+    transform: rotate(-60deg);
+    background-size: 32px 100%;
+  }
+  .developItem .listing .list {
+    font-size: 16px;
+  }
+  .developItem .title {
+    font-size: 24px;
+  }
+  .developItem .listing .list::before {
+    width: 24px;
+    height: 24px;
+    left: -40px;
+  }
+  .developItem .progressPoint {
+    top: 2px;
+  }
+  .onlyRealGamers::before,
+  .onlyRealGamers::after {
+    width: 200px;
+    height: 40px;
+  }
+  .onlyRealGamers::before {
+    top: -20px;
+  }
+  .onlyRealGamers {
+    padding: 70px 0;
+  }
+  .investorsMain {
+    padding: 40px 0;
+  }
+  .investorsMain .sectBody .brandItem {
+    width: 160px;
+    height: 30px;
+  }
+  .bgImgSection {
+    background-size: 960px;
+    background-position: center -300px;
+  }
+  .investorsMain .sectBody {
+    padding-top: 30px;
+  }
+  .investorsMain .sectBody {
+    padding-top: 30px;
+  }
+  .partnersMain .brandSlider {
+    margin-top: 80px;
+  }
+  .partnersMain {
+    padding: 0 0 40px 0;
+  }
+  .testimonialMainOuter {
+    padding-top: 40px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .title {
+    font-size: 24px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .subTitle {
+    font-size: 16px;
+    margin: 0;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .pera {
+    font-size: 14px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeTitle,
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .scroeResult {
+    font-size: 14px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    ul
+    li {
+    gap: 16px !important;
+  }
+  .testimonialSliderOuter .owl-nav .owl-prev,
+  .testimonialSliderOuter .owl-nav .owl-next {
+    width: 10px;
+    height: 16px;
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .rating {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    /* margin-top: 4px; */
+  }
+  .testimonialSliderOuter
+    .sliderItem
+    .contentOuter
+    .otherDetail
+    .otherDetailInner
+    .title {
+    font-size: 16px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter .otherDetail {
+    margin-top: 20px;
+  }
+  .faqSection::before,
+  .faqSection::after {
+    width: 24px;
+    height: 242px;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+  .faqSection .accordionOuter .accordion-collapse {
+    padding: 0 20px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body .decription {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .heroImgSect {
+    right: -20px;
+    bottom: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  /* Header CSS Start  */
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .leftPart
+    .imgOuter.gif {
+    height: 320px;
+  }
+  .mobileMenu {
+    background-color: #0c0c0c;
+    height: 100vh;
+  }
+  .mobileMenu .offcanvas-header {
+    border-color: #868686;
+  }
+  .mobileMenu .offcanvas-header .offcanvasLogo {
+    width: 21px;
+  }
+  .mobileMenu .offcanvas-header .btn-close {
+    /* font-size: 15px; */
+    filter: invert(1);
+    opacity: 1;
+  }
+  .mainHeader .navbar .navbar-nav {
+    gap: 0;
+  }
+  .mobileMenu .nav-item .nav-link {
+    padding: 8px 0 !important;
+    transition: ease-in-out 0.3s;
+  }
+  .mobileMenu .nav-item .nav-link:hover {
+    letter-spacing: 2px;
+  }
+  /* Header CSS End  */
+
+  /* Main Hero CSS Start  */
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 20px 0;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    margin-bottom: 16px;
+  }
+  .customBtn {
+    gap: 10px;
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+  .customBtn .btnArrow {
+    width: 8px;
+  }
+  .mainHeroSection .heroSocial {
+    padding: 12px 8px;
+  }
+  .mainHeroSection .heroSocial .socialList {
+    gap: 10px;
+  }
+  .mainHeroSection .heroSocial .socialList a {
+    width: 20px;
+    height: 20px;
+  }
+  /* Main Hero CSS End  */
+
+  .scoreTableOuter::-webkit-scrollbar {
+    width: 6px !important;
+  }
+  .tableOuter::after {
+    right: 2px;
+  }
+  .tableOuter::before {
+    width: calc(100% - 53px);
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    padding-right: 15px;
+  }
+  .sectionHeading .title {
+    font-size: 32px;
+  }
+  .leftSide {
+    border: 2px solid rgba(194, 6, 11, 1);
+    padding: 0 50px;
+  }
+  .sectionHeading .title::after {
+    border-width: 2px 2px 2px 0;
+  }
+  .sectionHeading .title::before {
+    border-width: 2px 0 2px 2px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .title {
+    font-size: 24px;
+  }
+  .rageEffect .sliderOuter .swiper-slide .sliderContent .hoverBg {
+    width: 75px;
+    height: 75px;
+    right: -40px;
+    top: 2px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 5px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 22px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .contentPart {
+    max-width: 360px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -30px;
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 40px;
+    background-size: 720px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem {
+    font-size: 16px;
+    width: calc(100% / 2 - 8px) !important;
+    height: 52px;
+    line-height: 20px;
+    padding: 8px;
+    border: 1px solid #ffffffd1;
+    gap: 16px;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem:nth-child(5),
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(6) {
+    transform: skewX(-12deg) !important;
+  }
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem:nth-child(3),
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem:nth-child(4),
+  .guildsFeatures .guildsFeaturesInner .featuresOuter .featureItem:nth-child(7),
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(8) {
+    transform: skewX(12deg) !important;
+  }
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(3)
+    .icon::before,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(4)
+    .icon::before,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(3)
+    .txt,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(4)
+    .txt {
+    transform: skewX(-12deg) !important;
+  }
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(5)
+    .icon::before,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(6)
+    .icon::before,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(5)
+    .txt,
+  .guildsFeatures
+    .guildsFeaturesInner
+    .featuresOuter
+    .featureItem:nth-child(6)
+    .txt {
+    transform: skewX(12deg) !important;
+  }
+  .guildsFeatures .rightImg {
+    top: -60px;
+    width: 300px;
+    height: 300px;
+  }
+  .developItem:nth-child(even) {
+    margin-left: 0;
+  }
+  .developItem {
+    width: 100%;
+  }
+  .developItem .progressPoint {
+    top: 2px;
+    right: auto;
+    left: 0;
+  }
+  .developItem .listing .list::before {
+    position: unset;
+  }
+  .developItem .progressPoint {
+    width: 24px;
+    height: 24px;
+  }
+  .developItem .progressPoint::before {
+    width: 12px;
+    height: 12px;
+  }
+  .developItem .listing .list {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .developItem .progressPoint::after {
+    background-size: 30px 100%;
+    top: 110px;
+    left: -96px;
+    width: 212px;
+    transform: rotate(90deg);
+  }
+  .developItem:nth-child(even) .progressPoint {
+    left: 0;
+  }
+  .developItem:nth-child(even) .progressPoint::after {
+    right: -98px;
+    top: 112px;
+    width: 214px;
+    transform: rotate(90deg);
+  }
+  .developingRage::after {
+    height: 100px;
+  }
+  .developingRageScroller {
+    max-height: 360px;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+  .developingRage .developingRageInner .miniTitle {
+    margin-top: 20px;
+  }
+  .developingRage {
+    padding: 30px 0;
+  }
+
+  .onlyRealGamers::before,
+  .onlyRealGamers::after {
+    display: none;
+  }
+  .footerMain .footerDec .footerLogo {
+    width: 60px;
+  }
+  .bgImgSection {
+    background-size: 720px;
+    background-position: center -200px;
+  }
+  .testimonialMainOuter {
+    padding: 40px 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 5.29%,
+        #0c0c0c 102.26%
+      ),
+      url(../img/testimonialBg.png);
+  }
+  .testimonialSliderOuter .sliderItem .imgOuter {
+    padding: 0 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter {
+    margin-top: -100px;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::after,
+  .faqSection .accordionOuter .accordion-button .cornor::before {
+    width: 24px;
+    height: 22px;
+    bottom: -11px;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::before {
+    left: -8px;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::after {
+    right: -8px;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body {
+    padding: 14px 24px;
+  }
+  .faqSection
+    .accordionOuter
+    .accordion-button:not(.collapsed)
+    .cornor::before {
+    left: -8px;
+  }
+  .faqSection .accordionOuter .accordion-button:not(.collapsed) .cornor::after {
+    right: -8px;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+  .faqSection {
+    padding: 40px 0;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body .decription {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body {
+    padding: 12px 14px;
+  }
+  .modal .contentPart .title {
+    font-size: 32px;
+  }
+  .modal .contentPart .subTitle {
+    font-size: 16px;
+  }
+  .modal .contentPart .pera {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .btnClose {
+    padding: 5px 8px;
+    top: -17px;
+    left: 0px;
+  }
+  .mainHeroSection {
+    min-height: 430px;
+  }
+  .mainHeroSection .heroImgSect .imgOuter {
+    width: 88% !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .customBtn::before {
+    display: none;
+  }
+  /* Main Hero CSS Start  */
+  .mainHeroSection {
+    background-size: cover;
+  }
+  .mainTitle {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+  .mainHeroSection .sectionInner .contentSide {
+    padding: 30px 0;
+    z-index: 10;
+    position: absolute;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroMiniHeading {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .mainHeroSection .sectionInner .contentSide .heroPera {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    padding-top: 0;
+    height: 250px;
+  }
+  /* Main Hero CSS End  */
+
+  .videoPLayBtn {
+    width: 80px;
+    height: 80px;
+  }
+  .videoPLayBtn img {
+    width: 20px;
+  }
+  .tableOuter::before {
+    width: calc(100% - 22px);
+    border-width: 1px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter .scoreTableInner {
+    padding: 0 10px;
+    border-width: 1px;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 13px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 10px 8px;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-pagination {
+    gap: 80px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet::before {
+    width: 80px;
+    left: -80px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+    width: 100%;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .soliderImg {
+    width: 100% !important;
+    right: -70px !important;
+  }
+
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 40px;
+    background-size: 540px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -30px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    position: absolute;
+    right: 0;
+    width: 5px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .contentPart {
+    max-width: 340px;
+    z-index: 1;
+    margin-left: -90px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .rightPart
+    .contentPart {
+    max-width: 340px;
+    z-index: 1;
+    margin-right: -90px !important;
+    margin-left: auto;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .rightPart
+    .sideDesign {
+    position: absolute;
+    left: 0;
+    width: 5px;
+  }
+  .developingRage .developingRageInner .miniTitle {
+    margin-top: 0;
+  }
+  .developingRage {
+    /* padding: 20px 0; */
+    background-image: none;
+  }
+  .developingRageScroller {
+    max-height: 380px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+  .developItem .progressPoint::after {
+    display: none;
+  }
+  .developItem::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 26px;
+    left: 11px;
+    border-right: 2px dashed #c2060b;
+  }
+  .onlyRealGamers {
+    padding: 50px 0;
+    background-size: cover;
+  }
+
+  .title2 {
+    font-size: 30px;
+    padding: 0 50px;
+  }
+  .sectionTitle .leftDesign,
+  .sectionTitle .rightDesign {
+    width: 100px;
+  }
+  .sectionTitle::before,
+  .sectionTitle::after {
+    width: calc(50% - 150px);
+  }
+  /* .partnersMain .brandSlider {
+        display: inline-block !important;
+    } */
+  /* .partnersMain .brandSlider img {
+        padding: 0 0;
+        max-width: unset;
+        display: inline-block;
+        width: calc(100% / 3 - 23px);
+        margin: 10px;
+    } */
+  .testimonialSliderOuter .owl-nav .owl-prev {
+    left: -20px;
+  }
+  .testimonialSliderOuter .owl-nav .owl-next {
+    right: -20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .rageEffect {
+    padding: 30px 0 30px !important;
+  }
+  .customBtn.btnStyle3 {
+    padding: 10px 18px;
+  }
+
+  .mainHeader .navbar {
+    padding: 8px 0;
+  }
+  /* Main Hero CSS Start  */
+
+  .mainTitle {
+    font-size: 28px;
+  }
+  .mainHeroSection {
+    min-height: 600px;
+  }
+  .mainHeroSection {
+    padding-top: 80px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    height: 350px;
+    background: linear-gradient(
+      180deg,
+      rgba(12, 12, 12, 0) 25.31%,
+      #0c0c0c 58.83%
+    );
+  }
+
+  .videoPLayBtn {
+    width: unset;
+    height: unset;
+    border: none;
+    backdrop-filter: none;
+    background-color: transparent;
+  }
+  .videoPLayBtn::after {
+    display: none;
+  }
+  .videoPLayBtn img {
+    width: 20px;
+  }
+
+  /* Main Hero CSS End  */
+
+  .scoreTableInner .table thead th:first-child,
+  .scoreTableInner .table tbody tr th {
+    min-width: 20px !important;
+    max-width: 20px !important;
+  }
+  .scoreTableInner .table thead th {
+    font-size: 13px;
+    padding-bottom: 12px;
+  }
+  .scoreTableInner .table tbody th,
+  .scoreTableInner .table tbody td {
+    font-size: 12px;
+  }
+  .scoreTableInner .table th,
+  .scoreTableInner .table td {
+    padding: 12px 4px;
+  }
+  .miniTitle {
+    font-size: 12px;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter {
+    padding-right: 0;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  .inRageEffect .inRageEffectInner .scoreTableOuter .scoreTableInner {
+    border: none !important;
+  }
+  .tableOuter::after {
+    display: none;
+  }
+  .inRageEffect {
+    background-size: cover;
+  }
+  .tableOuter::before {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #fff;
+    top: 0;
+    left: 0;
+  }
+  .inRageEffect {
+    padding: 30px 0 60px;
+  }
+  .sectionHeading .title::after,
+  .sectionHeading .title::before {
+    display: none;
+  }
+  .leftSide {
+    border: 0;
+    padding: 0 30px;
+    clip-path: unset;
+    background: unset;
+  }
+  .mainVideoSect .sectionHeading {
+    top: -23px;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-pagination {
+    gap: 15px;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet::before {
+    display: none;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    width: 32px;
+    height: 4px;
+    font-size: 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+  }
+  .rageEffect
+    .sliderOuter
+    .swiper
+    .swiper-pagination
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #c2060b;
+    border-color: #c2060b;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-pagination {
+    justify-content: left;
+    position: absolute;
+    top: 34px;
+    left: 32px;
+    height: fit-content;
+  }
+  .sectionHeading {
+    height: 52px;
+    display: flex;
+    align-items: center;
+  }
+  .rageEffect .sliderOuter .swiper .swiper-wrapper {
+    padding: 60px 0 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    transform: skewX(0deg);
+    width: 60px;
+    height: 60px;
+    margin-bottom: unset;
+    margin-left: unset;
+    font-size: 20px;
+    border-radius: 50%;
+    background: none;
+    border: 0.5px dashed rgba(255, 255, 255, 0.3);
+    right: 30%;
+    z-index: -1;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter .txt {
+    transform: skewX(0);
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 28px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .contentPart {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter {
+    padding-top: 36px;
+    background-size: 150%;
+  }
+  .aboutUs {
+    padding: 20px 0;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .soliderImg {
+    width: 100% !important;
+    right: -70px !important;
+  }
+
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem:nth-child(even) > .row {
+    justify-content: end;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .rightPart {
+    left: 0;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .rightPart
+    .contentPart {
+    margin-left: 12px !important;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+    width: 100%;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .scrollerCounter {
+    transform: skewX(0deg);
+    width: 60px;
+    height: 60px;
+    margin-bottom: unset;
+    margin-left: unset;
+    font-size: 20px;
+    border-radius: 50%;
+    background: none;
+    border: 0.5px dashed rgba(255, 255, 255, 0.3);
+    left: 35%;
+    bottom: 30px !important;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .rightPart
+    .sideDesign {
+    position: absolute;
+    left: 0;
+    width: 3px;
+  }
+  .mobileContent .bigTxt {
+    font-family: VTFJustinaHUM;
+    font-size: 139px;
+    font-weight: 700;
+    line-height: 1;
+    right: -16px;
+    z-index: -1;
+  }
+  .developingRageScroller {
+    overflow: hidden;
+    max-height: 600px;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+  .developItem {
+    padding-bottom: 60px;
+  }
+  .onlyMobile {
+    padding-bottom: 30px;
+  }
+  .onlyMobile .pera {
+    font-family: Oskari G2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.11em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
+  .customBtn.btnStyle3 .otherTxt {
+    -ms-transform: skewX(0);
+    -webkit-transform: skewX(0);
+    transform: skewX(0);
+  }
+  .customBtn .otherTxt {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 26px;
+  }
+  .footerMain {
+    padding: 24px 024px;
+  }
+  .footerMain .mobileFooter .mobileLogo {
+    width: 100px;
+    height: 70px;
+  }
+  .footerMain .mobileFooter .mobileSocialIcon {
+    margin-top: 40px;
+  }
+  .footerMain .mobileFooter .mobileSocialIcon a {
+    width: 24px;
+    height: 24px;
+  }
+  .footerMain .mobileFooter .MobileCopyRight {
+    margin-top: 30px;
+    font-family: Oskari G2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    color: rgba(165, 165, 165, 1);
+  }
+  .footerMain {
+    background-position: 0 60px;
+    background-size: cover;
+  }
+  .investorsMain .sectBody .brandItem {
+    width: 140px;
+    height: 28px;
+  }
+  .testimonialSliderOuter .sliderItem .contentOuter {
+    margin-top: -70px;
+  }
+  .testimonialMainOuter .owl-dots {
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+  }
+  .testimonialSliderOuter .sliderItem {
+    padding-top: 30px;
+  }
+  .testimonialMainOuter .owl-dots .owl-dot {
+    width: 30px;
+    height: 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.7);
+    transition: ease-in-out 0.3s;
+  }
+  .testimonialMainOuter .owl-dots .owl-dot.active {
+    background-color: #fff;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+  }
+  .faqSection::before,
+  .faqSection::after {
+    display: none;
+  }
+  .faqSection .accordionOuter .accordion-collapse .accordion-body {
+    padding: 12px 0;
+  }
+  .faqSection .accordionOuter .accordion-button::after {
+    width: 14px;
+    height: 14px;
+  }
+  /* .faqSection .accordionOuter .accordion-button .cornor::after, .faqSection .accordionOuter .accordion-button .cornor::before {
+        display: none;
+    } */
+  .faqSection .accordionOuter .accordion-button {
+    border-right: none;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::before,
+  .faqSection .accordionOuter .accordion-button .cornor::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: calc(50% - 6px);
+    background-color: #c2060b;
+    position: absolute;
+    right: 0 !important;
+    transform: unset !important;
+    transition: ease-in-out 0.3s;
+  }
+  .faqSection .accordionOuter .accordion-collapse {
+    border-right: none !important;
+    border-top: none !important;
+  }
+  .faqSection
+    .accordionOuter
+    .accordion-button:not(.collapsed)
+    .cornor::before {
+    left: auto;
+    right: 0;
+  }
+
+  .faqSection .accordionOuter .accordion-button:not(.collapsed) .cornor::before,
+  .faqSection .accordionOuter .accordion-button:not(.collapsed) .cornor::after {
+    background-color: #6f6f6f;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::before {
+    top: 0;
+    left: auto;
+  }
+  .faqSection .accordionOuter .accordion-button .cornor::after {
+    bottom: 0;
+    right: 0;
+  }
+  .faqSection .accordionOuter .accordion-button {
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .modal .modal-content {
+    background-color: #0c0c0c !important;
+  }
+  .modal .imgOuter {
+    transform: skewX(-0);
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .modal .imgOuter img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .modal .contentPart {
+    margin-left: 0;
+    padding: 16px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .leftPart
+    .imgOuter.gif {
+    height: 300px;
+  }
+}
+@media (max-width: 420.98px) {
+  /* .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .leftPart .imgOuter {
+        width: 150%;
+    } */
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .title {
+    font-size: 22px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .scrollerCounter {
+    width: 50px;
+    height: 50px;
+    right: 10px;
+  }
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem
+    .rightPart
+    .contentPart
+    .pera {
+    font-size: 13px;
+  }
+  .aboutUs .aboutUsInner .scrollerOuter .scrollerItem .rightPart .sideDesign {
+    width: 3px;
+  }
+  .mobileContent .bigTxt {
+    font-size: 100px;
+    right: -8px;
+  }
+  .onlyRealGamers::before,
+  .onlyRealGamers::after {
+    display: none;
+  }
+  .testimonialSliderOuter .sliderItem .imgOuter {
+    width: 90%;
+  }
+
+  .aboutUs
+    .aboutUsInner
+    .scrollerOuter
+    .scrollerItem:nth-child(even)
+    .leftPart
+    .imgOuter.gif {
+    height: 200px;
+  }
+}
+@media (max-width: 320.98px) {
+  .mainHeroSection {
+    min-height: 500px;
+  }
+  .mainHeroSection {
+    padding-top: 60px;
+  }
+  .mainHeroSection .sectionInner .heroBottomPart {
+    height: 350px;
+    background: linear-gradient(
+      180deg,
+      rgba(12, 12, 12, 0) 25.31%,
+      #0c0c0c 58.83%
+    );
+  }
+  .inRageEffect {
+    padding: 20px 0 40px;
+  }
+  .miniTitle {
+    font-size: 11px;
+  }
+  .developItem {
+    padding-bottom: 20px;
+    padding-left: 36px !important;
+  }
+  .testimonialSliderOuter .sliderItem .imgOuter {
+    width: 100%;
+  }
+}
